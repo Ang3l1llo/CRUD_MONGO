@@ -21,7 +21,7 @@ fun main() {
 
     //instancia de las clases que realizan el CRUD
     val create = Create(collUsers, collNews, collComments)
-    val delete = Delete(collNews)
+    val delete = Delete(collNews,collComments)
     val update = Update(collNews,collComments)
     val read = Read(collUsers, collNews, collComments)
 
